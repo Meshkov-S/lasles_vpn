@@ -1,0 +1,59 @@
+$accent: #F53838;
+$title: #0B132A;
+$text: #4F5665;
+
+%rubik-400 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+%rubik-500 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+%rubik-700 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+%btn {
+    background-color: transparent;
+    border: 2px solid $accent;
+    border-radius: 23px;
+    text-align: center;
+    @extend %rubik-500;
+    font-size: 16px;
+    cursor: pointer;
+    color: $accent;
+    width: 150px;
+    height: 45px;
+}
+
+%btn-accent {
+    box-shadow: 0px 0px 47px 0px rgba(245, 56, 56, 0.35);
+    background-color: $accent;
+    border-radius: 10px;
+    @extend %rubik-700;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    width: 250px;
+    height: 60px;
+}
+
+%text {
+    @extend %rubik-400;
+    line-height: 30px;
+    color: #4F5665;
+    font-size: 16px;
+}
+
+%title {
+    @extend %rubik-500;
+    line-height: 50px;
+    color: #0B132A;
+    font-size: 35px;
+}
